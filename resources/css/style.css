@@ -35,6 +35,11 @@ h5 {
     font-size: 1.25rem;
 }
 
+img {
+    display: block;
+    max-width: 90%;
+}
+
 /*Header Section*/
 
 header {
@@ -62,7 +67,7 @@ header nav ul li {
 
 .hero-mission-container {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
     height: 43.5rem;
     background-image: url(../images/hero_slc.jpg);
@@ -81,6 +86,36 @@ header nav ul li {
 .hero-mission-banner h2, h3 {
     width: 100%;
     margin: 0 auto;
-    color: darkgrey;
-    opacity: 0.9;
+    color: seashell;
+    opacity: 0.8;
+}
+
+/*Leaderboard Section*/
+
+.leaderboard-container {
+    display: flex;
+    margin: 1.5rem auto;
+    justify-content: center;
+    max-width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.leaderboard-banner {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid seashell;
+}
+
+/*Feed Container*/
+
+.feed-container {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-post {
+   
 }
