@@ -1,0 +1,86 @@
+/*Universal Styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+.main-content {
+    position: relative;
+    top: 4.5rem; /*To offset for fixed header*/
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+
+h3, li {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+/*Header Section*/
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+header main ul {
+    list-style-type: none;
+    right: 1rem;
+}
+
+header nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+}
+
+/*Hero Mission Section*/
+
+.hero-mission-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 43.5rem;
+    background-image: url(../images/hero_slc.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.hero-mission-banner {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.hero-mission-banner h2, h3 {
+    width: 100%;
+    margin: 0 auto;
+    color: darkgrey;
+    opacity: 0.9;
+}
